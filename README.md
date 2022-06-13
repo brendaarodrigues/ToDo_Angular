@@ -26,5 +26,5 @@ Essa aplicação foi feita através do curso do Balta.io "Começando com Angular
 ## HTML
 ## CSS
 ## NodeJS
-# Angular
+## Angular
 ```
