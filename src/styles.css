@@ -1,0 +1,98 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-weight: 200;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  background: linear-gradient(60deg, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 100%);
+}
+
+ul {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 3px 4px 14px 0px black;
+}
+
+li {
+  padding: 15px;
+  margin: 10px;
+  font-size: 1em;
+  font-style: italic;
+  border-bottom: 2px solid black;
+}
+
+
+li>button {
+  border: none;
+  background-color: white;
+  font-size: 1em;
+  float: right;
+  opacity: 0.6;
+  transition: opacity 1s;
+}
+
+li>button:hover {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+
+.title {
+  color: white;
+  font-size: 5em;
+  text-shadow: 3px 5px black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  padding: 20px;
+  color: white;
+  border-radius: 30px;
+  font-size: 1em;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#modal {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+  background: white;
+  box-shadow: 3px 4px 14px 0px black;
+}
+
+#modal>h1 {
+  font-weight: 300;
+}
+
+input {
+  width: 100%;
+  line-height: 50px;
+  text-indent: 10px;
+  font-size: 1.2em;
+}
+
+.danger {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+#trashcan {
+  position: relative;
+}
